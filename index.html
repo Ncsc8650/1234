@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คู่มือสอบ เสธ.86</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap');
+
+    :root {
+      --navy: #071a33;
+      --blue: #1d4ed8;
+      --teal: #0f766e;
+      --gold: #f59e0b;
+      --ink: #111827;
+      --muted: #5b677a;
+      --line: #d8e1ee;
+      --paper: #ffffff;
+      --bg: #f4f7fb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Sarabun", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, rgba(7, 26, 51, .92), rgba(15, 118, 110, .82)),
+        linear-gradient(180deg, #eef5ff, #f8fafc);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(1080px, calc(100% - 32px));
+      min-height: 100vh;
+      margin: 0 auto;
+      display: grid;
+      align-content: center;
+      gap: 24px;
+      padding: 34px 0;
+    }
+
+    .hero {
+      color: white;
+      padding: 22px 0 4px;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #fde68a;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 10px 0 10px;
+      font-size: clamp(2rem, 6vw, 4.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0;
+      color: #e9f2ff;
+      font-size: 1.08rem;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .tile {
+      min-height: 260px;
+      display: grid;
+      align-content: space-between;
+      gap: 18px;
+      padding: 24px;
+      color: inherit;
+      text-decoration: none;
+      background: var(--paper);
+      border: 1px solid rgba(216, 225, 238, .9);
+      border-radius: 8px;
+      box-shadow: 0 24px 55px rgba(3, 7, 18, .22);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+
+    .tile:hover,
+    .tile:focus-visible {
+      transform: translateY(-3px);
+      border-color: #93c5fd;
+      box-shadow: 0 30px 70px rgba(3, 7, 18, .28);
+      outline: none;
+    }
+
+    .tile strong {
+      display: block;
+      color: var(--navy);
+      font-size: 1.55rem;
+      line-height: 1.25;
+    }
+
+    .tile p {
+      margin: 10px 0 0;
+      color: var(--muted);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: #1e3a8a;
+      font-size: .9rem;
+      font-weight: 800;
+    }
+
+    .open {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      color: white;
+      background: var(--blue);
+      font-weight: 800;
+    }
+
+    .tile.exam .open {
+      background: var(--teal);
+    }
+
+    .tile.pdf .open {
+      background: var(--gold);
+      color: #111827;
+    }
+
+    .note {
+      padding: 14px 16px;
+      border: 1px solid rgba(253, 230, 138, .8);
+      border-radius: 8px;
+      color: #fff7ed;
+      background: rgba(7, 26, 51, .34);
+    }
+
+    .note b {
+      color: #fde68a;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 24px, 680px);
+        align-content: start;
+      }
+
+      .actions {
+        grid-template-columns: 1fr;
+      }
+
+      .tile {
+        min-height: 220px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="kicker">หลักสูตรเสนาธิการทหารเรือ รุ่นที่ 86</div>
+      <h1 id="page-title">คู่มือสอบ เสธ.86</h1>
+      <p>เลือกเข้าอ่านคู่มือฉบับเต็ม ฝึกทำ Mock Exam 100 ข้อ หรือเปิดแผ่นสรุป A4 สำหรับ OPART, OPDESIGN, IPOE และ ปกส.</p>
+    </section>
+
+    <section class="actions" aria-label="เมนูเอกสาร">
+      <a class="tile guide" href="คู่มือสอบ_เสธ86_OPART_OPDESIGN_IPOE_ปมส.html">
+        <span>
+          <strong>คู่มือสอบฉบับเต็ม</strong>
+          <p>อ่านเนื้อหาสรุปเป็นบท พร้อมสารบัญ ค้นหา และหัวข้อสำคัญสำหรับทบทวนก่อนสอบ</p>
+          <span class="meta">
+            <span class="tag">OPART</span>
+            <span class="tag">OPDESIGN</span>
+            <span class="tag">IPOE</span>
+            <span class="tag">ปกส.</span>
+          </span>
+        </span>
+        <span class="open">เปิดคู่มือ</span>
+      </a>
+
+      <a class="tile exam" href="mock_exam_เสธ86_100ข้อ.html">
+        <span>
+          <strong>Mock Exam 100 ข้อ</strong>
+          <p>แบบฝึกหัดถูก-ผิดและปรนัย พร้อมเฉลยและคำอธิบายเพื่อเช็กความพร้อม</p>
+          <span class="meta">
+            <span class="tag">100 ข้อ</span>
+            <span class="tag">เฉลย</span>
+            <span class="tag">ทบทวนเร็ว</span>
+          </span>
+        </span>
+        <span class="open">เริ่มทำข้อสอบ</span>
+      </a>
+
+      <a class="tile pdf" href="A4 หน้าเดียว เสธ.86 อัดเต็ม.pdf">
+        <span>
+          <strong>A4 หน้าเดียว อัดเต็ม</strong>
+          <p>ไฟล์ PDF สรุปรวมสำหรับทวนเร็ว เปิดอ่านหรือพิมพ์เก็บก่อนเข้าห้องสอบ</p>
+          <span class="meta">
+            <span class="tag">PDF</span>
+            <span class="tag">A4</span>
+            <span class="tag">สรุปเร็ว</span>
+          </span>
+        </span>
+        <span class="open">เปิด PDF</span>
+      </a>
+    </section>
+
+    <div class="note">
+      <b>สำหรับ GitHub Pages:</b> ตั้งค่า Pages ให้ชี้ที่ branch หลักและ root folder แล้วเปิดหน้าแรกด้วย <code>index.html</code>
+    </div>
+  </main>
+</body>
+</html>
