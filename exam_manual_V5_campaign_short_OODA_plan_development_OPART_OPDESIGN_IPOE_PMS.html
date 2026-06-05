@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="th">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>คู่มือสอบ เสธ.86 V3 รวมถอดเสียง</title><style>
+@page { size: A4 portrait; margin: 10mm; }
+body{margin:0;font-family:Sarabun,'Noto Sans Thai',Tahoma,sans-serif;background:#f4f7fb;color:#111827;line-height:1.65}
+header{background:linear-gradient(135deg,#071a33,#0f3b70,#075985);color:white;padding:28px 24px;border-bottom:7px solid #f59e0b}
+.wrap{max-width:1280px;margin:auto;padding:22px}
+h1{margin:0;font-size:2rem}.sub{opacity:.95;margin-top:6px}
+.layout{display:grid;grid-template-columns:300px 1fr;gap:20px;max-width:1280px;margin:auto;padding:22px}
+nav{position:sticky;top:12px;align-self:start;background:white;border:1px solid #d8e1ee;border-radius:18px;padding:14px;box-shadow:0 8px 20px #0001}
+nav a{display:block;text-decoration:none;color:#0f172a;font-weight:800;padding:7px 8px;border-radius:8px}
+nav a:hover{background:#eaf2ff}.search{width:100%;padding:9px;border:1px solid #d8e1ee;border-radius:10px;margin:8px 0;font-family:inherit}
+.card{background:white;border:1px solid #d8e1ee;border-radius:18px;margin-bottom:16px;box-shadow:0 8px 20px #0001;overflow:hidden}
+.title{background:#0b2d55;color:white;padding:14px 18px}.title h2{margin:0;font-size:1.35rem}.title p{margin:3px 0 0;opacity:.9}
+.content{padding:16px 20px}h3{border-left:5px solid #1d4ed8;padding-left:9px;color:#071a33;margin:16px 0 8px}
+.box{border:1px solid #d8e1ee;border-radius:14px;padding:12px 14px;margin:10px 0;background:white}
+.must{border-left:6px solid #047857;background:#f0fdf4}.warn{border-left:6px solid #dc2626;background:#fff5f5}.note{border-left:6px solid #f59e0b;background:#fffbeb}.blue{border-left:6px solid #1d4ed8;background:#eff6ff}.purple{border-left:6px solid #6d28d9;background:#f5f3ff}.teal{border-left:6px solid #0f766e;background:#f0fdfa}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.formula{background:#eef6ff;border:1px dashed #93c5fd;border-radius:12px;padding:10px;margin:8px 0;text-align:center;font-weight:900;color:#0b2d55}
+table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:.95rem}td,th{border:1px solid #d8e1ee;padding:8px;vertical-align:top}th{background:#eaf1fb;color:#0b1f3a}
+.bad{color:#dc2626;font-weight:900}.good{color:#047857;font-weight:900}
+.flash{display:grid;grid-template-columns:1fr 2fr;border:1px solid #d8e1ee;border-radius:12px;overflow:hidden}.flash div{padding:8px 10px;border-bottom:1px solid #d8e1ee}.flash div:nth-child(odd){font-weight:900;background:#f8fafc}.flash div:nth-last-child(-n+2){border-bottom:0}
+details{border:1px solid #d8e1ee;border-radius:12px;margin:8px 0;background:white;overflow:hidden}summary{font-weight:900;cursor:pointer;background:#f8fafc;padding:10px}.inner{padding:10px 14px}
+.printbar{position:sticky;bottom:0;background:#fff7ed;border-top:1px solid #fed7aa;padding:10px;text-align:center;font-weight:900;color:#7c2d12}
+button{font-family:inherit;background:#0b2d55;color:white;border:0;border-radius:8px;padding:6px 10px;font-weight:900}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.grid2,.grid3{grid-template-columns:1fr}nav{position:relative}}
+@media print{header,nav,.printbar{display:none}.layout{display:block;padding:0}.card{box-shadow:none;break-inside:avoid}body{background:white;font-size:12px}}
+</style></head>
+<body>
+<header><div class="wrap"><h1>คู่มือสอบ เสธ.86 V5 — ปรับ Campaign สั้น + ย้าย OODA ไป Plan Development</h1>
+<div class="sub">OPART + OPDESIGN + IPOE + ปมส. | เรียบเรียงใหม่ให้ครบหัวข้อที่อาจารย์ใบ้จากเสียง และแก้ให้ตรงชีท A4</div></div></header>
+
+<div class="layout">
+<nav>
+<h2>สารบัญ</h2>
+<input class="search" id="searchBox" placeholder="ค้นคำ เช่น TAI, EEFI, Direction, COG">
+<a href="#map">แผนที่หัวข้อจากถอดเสียง</a>
+<a href="#principles">หลักที่แก้ให้ตรงชีท</a>
+<a href="#opart">1. OPART</a>
+<a href="#opdesign">2. OPDESIGN</a>
+<a href="#ipoe">3. IPOE</a>
+<a href="#pms">4. ปมส.</a>
+<a href="#linkage">ความเชื่อมโยง 4 วิชา</a>
+<a href="#quick">ชุดจำเร็ว</a>
+<a href="#essay">โครงตอบอัตนัย</a>
+<a href="#traps">ข้อหลอก</a>
+<p><button onclick="window.print()">พิมพ์ / Save PDF</button></p>
+</nav>
+
+<main id="mainContent">
+
+<section id="map" class="card"><div class="title"><h2>แผนที่หัวข้อจากถอดเสียงอาจารย์</h2><p>ประเด็นที่คู่มือฉบับนี้เพิ่มกลับเข้ามา</p></div><div class="content">
+<div class="grid3">
+<div class="box must"><h3>OPART</h3><ul>
+<li>ความหมายยุทธศิลป์ระดับยุทธการ</li><li>ระดับของสงคราม</li><li>Operational Factors</li><li>รู้เขารู้เรา</li><li>Campaign ประกอบด้วยอะไร/ทำเพื่ออะไร</li><li>Operational Sustainment ช่วยอะไร</li><li>COG Analysis</li><li>ความหมาย COG / Effect</li><li>LOO / LOE</li><li>Operational Reach</li><li>Geographic / Geostrategic Position</li>
+</ul></div>
+<div class="box purple"><h3>OPDESIGN</h3><ul>
+<li>Operational Design คืออะไร</li><li>Design Methodology</li><li>Design End State กำหนดอย่างไร</li><li>Operational Approach ที่ดี</li><li>Concept Plan กับ Detailed Plan</li><li>Design = What/Why, Planning = How</li><li>Problem Statement / COA Statement ที่ดี</li><li>Effect / DP / LOO / LOE ในการออกแบบ</li>
+</ul></div>
+<div class="box teal"><h3>IPOE + ปมส.</h3><ul>
+<li>Operational Intelligence</li><li>OODA Loop</li><li>IPOE 4 ขั้นตอน</li><li>AO / AOI / AIR / AII</li><li>TAI / Indicator</li><li>EEFI / FFIR / CCIR / PIR / TIR</li><li>ขั้นตอน ปมส.</li><li>Constraint / Restraint</li><li>COA Development / COA Analysis / War Game</li>
+</ul></div>
+</div></div></section>
+
+<section id="principles" class="card"><div class="title"><h2>หลักที่แก้ให้ตรงชีท เสธ.86</h2></div><div class="content">
+<div class="grid2">
+<div class="box warn"><h3>Operational Factors</h3><p>ตามชีทชุดนี้ให้จำว่า <b>Operational Factors = Time + Space + Force</b></p><p><b>PMESII-PT</b> ใช้เป็นกรอบวิเคราะห์ <b>OE</b> ไม่ใช่ OPART Element โดยตรง</p></div>
+<div class="box warn"><h3>OPDESIGN Methodology</h3><p>ตามชีทชุดนี้ให้จำว่า <b>1 Direction → 2 OE → 3 Problem → 4 Approach</b></p><p>ขั้นแรกคือ <b>Direction</b> ไม่ใช่ OE</p></div>
+</div></div></section>
+
+<section id="opart" class="card"><div class="title"><h2>1. OPART — Operational Art</h2><p>ยุทธศิลป์ระดับยุทธการ</p></div><div class="content">
+<h3>ความหมายและระดับสงคราม</h3>
+<p><b>Operational Art</b> คือการใช้ความคิดสร้างสรรค์และวิจารณญาณของผู้บังคับบัญชาและฝ่ายอำนวยการ เพื่อเชื่อม <b>Strategic → Operational → Tactical</b> ผ่าน Campaign / Major Operation ให้บรรลุ End State</p>
+<div class="formula">Operational Art = Ends + Ways + Means + Risk</div>
+<table><tr><th>Ends</th><td>End State / Objective</td></tr><tr><th>Ways</th><td>แนวทางใช้กำลังหรือวิธีดำเนินการ</td></tr><tr><th>Means</th><td>กำลัง ทรัพยากร เวลา เครื่องมือ การสนับสนุน</td></tr><tr><th>Risk</th><td>ความเสี่ยงต่อภารกิจ กำลัง เวลา และผลลัพธ์</td></tr></table>
+<table><tr><th>Strategic</th><td>ทำสงครามเพื่ออะไร</td><td>National Objective, War Termination</td></tr><tr><th>Operational</th><td>จัด Campaign อย่างไร</td><td>COG, DP, LOO/LOE, Phase</td></tr><tr><th>Tactical</th><td>รบอย่างไร</td><td>Battle, Engagement, Fire, Maneuver</td></tr></table>
+
+<h3>Operational Factors</h3>
+<div class="formula">Operational Factors = Time + Space + Force</div>
+<table><tr><th>Time</th><td>เวลา จังหวะ ห้วงปฏิบัติ Tempo, Sequencing, Phasing, Window of Opportunity</td></tr><tr><th>Space</th><td>พื้นที่ ระยะทาง ภูมิศาสตร์ ทะเล ช่องแคบ ฐานทัพ SLOC</td></tr><tr><th>Force</th><td>กำลังรบ ขีดความสามารถ ความพร้อม การจัดกำลัง การสนับสนุน</td></tr></table>
+
+
+
+<h3>Campaign — ความหมายในส่วน OPART</h3>
+<p><b>Campaign</b> คือชุดของการปฏิบัติการหรือยุทธการหลายส่วนที่สัมพันธ์กัน จัดเรียงตาม <b>เวลา พื้นที่ และกำลัง</b> เพื่อบรรลุวัตถุประสงค์ระดับยุทธศาสตร์หรือระดับยุทธการ และนำไปสู่ <b>End State</b> ที่ต้องการ</p>
+<div class="formula">Campaign = ชุดการปฏิบัติที่สัมพันธ์กัน → บรรลุ Objective / End State</div>
+<div class="box note">
+  <p><b>จำสั้น:</b> Campaign ไม่ใช่ Battle ครั้งเดียว แต่เป็นการจัดหลาย Operation ให้ต่อเนื่องและสอดคล้องกัน</p>
+</div>
+
+<h3>OPART Elements 13 ข้อ</h3>
+<ol><li>End State</li><li>Objectives</li><li>Effects</li><li>Center of Gravity (COG)</li><li>Decisive Points (DP)</li><li>Lines of Operation (LOO)</li><li>Lines of Effort (LOE)</li><li>Direct / Indirect Approach</li><li>Operational Reach</li><li>Culminating Point</li><li>Tempo</li><li>Phasing / Transition</li><li>Risk</li></ol>
+<p><b>PMESII-PT</b> ไม่ใช่ OPART Element โดยตรง แต่ใช้วิเคราะห์ OE</p>
+
+<h3>End / Objective / Effect / Task</h3>
+<table><tr><th>End State</th><td>สภาพสุดท้ายที่ต้องการ ไม่ใช่ตัวภารกิจ</td></tr><tr><th>Objective</th><td>เป้าหมายที่ต้องบรรลุเพื่อไป End State</td></tr><tr><th>Effect</th><td>ผลที่ต้องเกิดจากการกระทำ อาจเป็นกายภาพ พฤติกรรม จิตวิทยา หรือระบบ</td></tr><tr><th>Task</th><td>กิจที่หน่วยทำ เช่น โจมตี ยึด คุ้มกัน ลาดตระเวน</td></tr></table>
+
+<h3>COG Analysis</h3>
+<div class="formula">COG → CC → CR → CV</div>
+<table><tr><th>COG</th><td>Source of Power / แหล่งพลังอำนาจหลัก</td></tr><tr><th>CC</th><td>Critical Capability: COG ทำอะไรได้</td></tr><tr><th>CR</th><td>Critical Requirement: ต้องมีอะไรเพื่อให้ CC ทำงาน</td></tr><tr><th>CV</th><td>Critical Vulnerability: จุดอ่อนใน CR ที่โจมตีหรือใช้ประโยชน์ได้</td></tr></table>
+<p><b>ตัวอย่าง Falklands:</b> COG = Carrier Battle Group; CC = Air/Sea Control; CR = Carrier, Aircraft, Pilot, Fuel, Escort, Logistics, C2; CV = Logistic Ship, Long SLOC, Weather, Aircraft Limited</p>
+
+<h3>DP / LOO / LOE / Arrange Operations</h3>
+<p><b>DP</b> คือสภาวะ เหตุการณ์ พื้นที่ หน้าที่ หรือขีดความสามารถที่ทำให้ได้เปรียบหรือเข้าใกล้ Objective / COG; <span class="bad">DP = Condition ไม่ใช่ Task</span></p>
+<table><tr><th>LOO</th><td>Line of Operation มีพื้นที่/ภูมิศาสตร์ชัด เชื่อมการปฏิบัติหรือ DP ตามเวลาและพื้นที่</td></tr><tr><th>LOE</th><td>Line of Effort เชื่อมกิจกรรมหลายด้าน ไม่จำเป็นต้องผูกกับพื้นที่ เช่น ข่าวสาร กิจการพลเรือน การทูต เศรษฐกิจ ความชอบธรรม</td></tr><tr><th>Direct</th><td>เข้าหา COG โดยตรง</td></tr><tr><th>Indirect</th><td>ผ่าน CV / DP เพื่อทำให้ COG เสื่อม</td></tr></table>
+<table><tr><th>Sequencing</th><td>เรียงลำดับ DP หรือสภาวะ</td></tr><tr><th>Phasing</th><td>แบ่งขั้นปฏิบัติ</td></tr><tr><th>Main Effort</th><td>ความพยายามหลัก เปลี่ยนตาม Phase ได้</td></tr><tr><th>Branch</th><td>แผนเบี่ยงแล้วกลับ LOO เดิม</td></tr><tr><th>Sequel</th><td>ไปสู่ Operation หรือ LOO ใหม่</td></tr><tr><th>Operational Pause</th><td>หยุดสะสมกำลังหรือลดเสี่ยง ไม่ใช่ยุติ</td></tr></table>
+
+<h3>Reach / Tempo / Assessment / Geographic Position</h3>
+<table><tr><th>Operational Reach</th><td>ระยะหรือขีดความสามารถในการปฏิบัติต่อเนื่อง ขึ้นกับ Logistics, Fuel, Ammo, Repair</td></tr><tr><th>Culminating Point</th><td>จุดหมดแรง ทำให้รุกหรือรักษาความได้เปรียบไม่ได้</td></tr><tr><th>Tempo</th><td>จังหวะหรืออัตราการปฏิบัติเทียบกับข้าศึก</td></tr><tr><th>Assessment</th><td>วัดว่า Effect / Objective เกิดขึ้นจริงหรือไม่</td></tr><tr><th>Geographic Position</th><td>ตำแหน่งทางภูมิศาสตร์ เช่น เกาะ ช่องแคบ ท่าเรือ สนามบิน SLOC</td></tr><tr><th>Geostrategic Position</th><td>ตำแหน่งที่มีคุณค่ายุทธศาสตร์ เช่น ควบคุม SLOC เป็นฐานส่งกำลัง หรือจุดคานอำนาจ</td></tr></table>
+</div></section>
+
+<section id="opdesign" class="card"><div class="title"><h2>2. OPDESIGN — Operational Design</h2><p>Design = What/Why, Planning = How</p></div><div class="content">
+<h3>ความหมาย</h3>
+<p><b>Operational Design</b> คือกระบวนการคิดเชิงแนวคิด เพื่อทำความเข้าใจปัญหา OE และแนวทางแก้ปัญหา ก่อนนำไปทำแผนรายละเอียด</p>
+<div class="formula">Design = What / Why | Planning = How</div>
+
+<h3>Design Methodology 4 ขั้น</h3>
+<div class="formula">1 Understand Operational Direction → 2 Understand OE → 3 Define Problem → 4 Develop Operational Approach</div>
+<table><tr><th>1 Direction</th><td>เข้าใจคำสั่ง เจตนารมณ์ Objective, End State, Constraints, Resources, เวลาและทรัพยากรจากหน่วยเหนือ</td></tr><tr><th>2 OE</th><td>เข้าใจ Current State / Desired State / PMESII-PT / Actors / Nodes / Links / Tension และถาม “So What?”</td></tr><tr><th>3 Problem</th><td>ระบุปัญหาจริง ไม่ใช่อาการหรือกิจ ชี้ Gap ระหว่าง Current State กับ Desired End State</td></tr><tr><th>4 Approach</th><td>แนวทางเปลี่ยน Current State ไป Desired End State ยังไม่ใช่ COA รายละเอียดหรือ OPORD</td></tr></table>
+
+<h3>PMESII-PT ใช้ทำความเข้าใจ OE</h3>
+<table><tr><th>P</th><td>Political</td><th>M</th><td>Military</td></tr><tr><th>E</th><td>Economic</td><th>S</th><td>Social</td></tr><tr><th>I</th><td>Information</td><th>I</th><td>Infrastructure</td></tr><tr><th>P</th><td>Physical Environment</td><th>T</th><td>Time</td></tr></table>
+
+<h3>Problem Statement ที่ดี</h3>
+<ol><li>Current Condition</li><li>Desired End State</li><li>Gap / Core Problem</li><li>Constraints / Limitations</li><li>Implication / Risk if unresolved</li></ol>
+<p><b>หลักจำ:</b> อย่าเขียน Problem เป็นกิจ เช่น “ยกพลขึ้นบก” แต่ต้องเขียนสิ่งที่ขัดขวาง End State</p>
+
+<h3>Operational Approach ที่ดี</h3>
+<ul><li>เข้าใจง่าย</li><li>เชื่อม End State / Objective</li><li>สอดคล้องกับ OE และข้อจำกัด</li><li>ใช้ COG, DP, LOO/LOE เหมาะสม</li><li>นำไปพัฒนา COA ได้</li><li>ยังเป็นแนวทางกว้าง ไม่ใช่ COA รายละเอียด</li></ul>
+
+<h3>Effect / DP / LOO / LOE ใน Design</h3>
+<table><tr><th>Effect</th><td>ผลจากการกระทำ อาจเป็นผลกายภาพ พฤติกรรม จิตวิทยา หรือระบบ</td></tr><tr><th>DP</th><td>พื้นที่ เหตุการณ์ เงื่อนไข หรือขีดความสามารถที่ส่งผลต่อ COG / Objective</td></tr><tr><th>LOO</th><td>เชื่อมการปฏิบัติหรือ DP ตามเวลาและพื้นที่</td></tr><tr><th>LOE</th><td>เชื่อมกิจกรรมหลายด้าน ไม่จำเป็นต้องผูกกับพื้นที่ เช่น ข่าวสาร กิจการพลเรือน การทูต เศรษฐกิจ</td></tr></table>
+
+<h3>Design End State / Concept Plan / Detailed Plan / COA Statement</h3>
+<table><tr><th>Design End State มาจาก</th><td>คำสั่งและเจตนารมณ์หน่วยเหนือ, Strategic Guidance, Objectives, Desired Conditions, ข้อจำกัด, Current State, Core Problem</td></tr><tr><th>Concept Plan</th><td>แผนแนวคิดกว้าง แสดงเจตนารมณ์ วิธีคิด Phase, LOO/LOE, Main Effort</td></tr><tr><th>Detailed Plan</th><td>แผนละเอียด ระบุใคร ทำอะไร ที่ไหน เมื่อใด อย่างไร ใช้ปฏิบัติจริง</td></tr><tr><th>COA Statement ที่ดี</th><td>มี Objective, Main/Supporting Effort, Scheme of Maneuver, Phase/Time/Area, Desired Effects, Risk, Success Conditions</td></tr></table>
+</div></section>
+
+<section id="ipoe" class="card"><div class="title"><h2>3. IPOE — Intelligence Preparation of Operational Environment</h2><p>รู้เขา / รู้พื้นที่ / รู้ผลกระทบของ OE</p></div><div class="content">
+<h3>Operational Intelligence</h3>
+<p><b>Operational Intelligence</b> คือข่าวกรองระดับยุทธการที่สนับสนุน Campaign / Major Operation โดยช่วยให้เข้าใจ OE, Threat, COG, Threat COA, Indicator, Risk และโอกาสในการปฏิบัติ</p>
+<h3>IPOE ภาพรวม</h3>
+<p><b>IPOE</b> = Intelligence Preparation of Operational Environment เพื่อสนับสนุนการวางแผนและการตกลงใจ</p>
+<table><tr><th>Step 1–2</th><td>Analysis of Operational Environment</td></tr><tr><th>Step 3–4</th><td>Analysis of Threat</td></tr></table>
+
+<h3>IPOE 4 Steps</h3>
+<table><tr><th>1 Define OE</th><td>กำหนด AO / AOI / OE Characteristics</td></tr><tr><th>2 Describe OE Effects</th><td>Physical / Non-physical / Time → MCOO</td></tr><tr><th>3 Evaluate Threat</th><td>Capability / Intent / COG / HVT / HPT</td></tr><tr><th>4 Determine Threat COA</th><td>MLCOA / MDCOA / NAI / Event Matrix</td></tr></table>
+
+<h3>Step 1 Define OE</h3>
+<ul><li>Review Situation</li><li>Scope Threat: Operational + Environmental Threat</li><li>Identify OE Characteristics</li><li>Define AO / AOI หรือ AIR / AII</li></ul>
+<p><b>Products:</b> AO, AOI, OE Characteristics, Overlays, Human Factors, Environmental Graphics</p>
+<table><tr><th>AO</th><td>Area of Operations: พื้นที่ปฏิบัติการที่รับผิดชอบ</td></tr><tr><th>AOI</th><td>Area of Interest: พื้นที่สนใจที่อาจส่งผลต่อภารกิจ</td></tr><tr><th>AIR</th><td>Area of Intelligence Responsibility: พื้นที่รับผิดชอบด้านข่าวกรอง</td></tr><tr><th>AII</th><td>Area of Intelligence Interest: พื้นที่สนใจด้านข่าวกรอง</td></tr></table>
+
+<h3>Step 2 Describe OE Effects</h3>
+<p>ถามว่า <b>“So What?”</b> สิ่งแวดล้อมนี้กระทบการปฏิบัติอย่างไร</p>
+<ul><li><b>Physical:</b> Maritime / Land / Air / Space / Weather</li><li><b>Non-Physical:</b> Human / Information</li><li><b>Time Factors</b></li><li><b>Critical Effects / Issues</b></li></ul>
+<p><b>Product:</b> MCOO + OE Effect Summary</p>
+<div class="formula">OAKOC = Observation & Fields of Fire + Avenues of Approach + Key Terrain + Obstacles + Cover & Concealment</div>
+<p><b>MCOO</b> = Modified Combined Obstacle Overlay: Unrestricted, Restricted, Severely Restricted, Key Terrain, Avenues of Approach. MCOO ไม่ใช่แค่แผนที่ แต่คือผลกระทบของ OE ต่อการปฏิบัติ</p>
+
+<h3>Step 3 Evaluate Threat</h3>
+<div class="formula">Threat = Capability + Intent + Opportunity</div>
+<ul><li>Review Threat Situation</li><li>Capability / Disposition / Intent</li><li>Strength / Weakness</li><li>Threat Mission Analysis</li><li>Threat COG / CF / HVT / HPT</li></ul>
+<table>
+<tr><th>HVT</th><th>HPT</th></tr>
+<tr><td>High Value Target</td><td>High Payoff Target</td></tr>
+<tr><td><b>ตามกรอบสอบนี้ให้โยงกับ CR</b>: สิ่งสำคัญ/สิ่งจำเป็นที่ข้าศึกต้องใช้เพื่อให้ COG หรือ Critical Capability ทำงาน</td><td><b>ตามกรอบสอบนี้ให้โยงกับ CV</b>: เป้าหมายที่ตีแล้วคุ้ม เพราะกระทบจุดอ่อนสำคัญของข้าศึกและช่วยให้ COA ฝ่ายเราสำเร็จ</td></tr>
+<tr><td>สำคัญต่อข้าศึก หากเสียไปข้าศึกลำบาก</td><td>สำคัญต่อฝ่ายเราในการโจมตี/ใช้ผล เพราะให้ผลตอบแทนสูง</td></tr>
+<tr><td>มักได้จากการดู Critical Requirements</td><td>มักเลือกจาก Critical Vulnerabilities ที่โจมตีได้จริง</td></tr>
+</table>
+<div class="box note">
+<p><b>จำแบบสอบ:</b> HVT ≈ CR, HPT ≈ CV</p>
+<p><b>คำอธิบาย:</b> HVT คือสิ่งที่มีคุณค่าต่อข้าศึก เพราะเกี่ยวกับสิ่งที่ข้าศึกต้องใช้ ส่วน HPT คือสิ่งที่ฝ่ายเราควรใช้ผล/โจมตี เพราะหากกระทบแล้วช่วยให้แผนฝ่ายเราสำเร็จหรือทำให้ COG ข้าศึกเสื่อม</p>
+</div>
+
+<h3>Step 4 Determine Threat COA</h3>
+<ul><li>Review Threat Mission Analysis</li><li>Develop Threat COA / Scenario</li><li>Develop Indicators</li><li>Draft Collection Plan</li></ul>
+<table><tr><th>MLCOA</th><td>Most Likely COA = น่าจะทำมากที่สุด</td></tr><tr><th>MDCOA</th><td>Most Dangerous COA = อันตรายที่สุด</td></tr><tr><th>NAI</th><td>Named Area of Interest = พื้นที่เฝ้าตรวจเพื่อพิสูจน์ COA</td></tr><tr><th>TAI</th><td>Target Area of Interest = พื้นที่ที่เหมาะแก่การใช้ผล/โจมตีเป้าหมาย</td></tr><tr><th>Event Matrix</th><td>NAI + Indicator + Time + Meaning + Collection Asset</td></tr></table>
+
+<h3>CCIR / PIR / FFIR / EEFI / TIR และ OODA</h3>
+<table><tr><th>CCIR</th><td>ข้อมูลสำคัญที่ ผบ.ต้องใช้ตัดสินใจ</td></tr><tr><th>PIR</th><td>ข่าวสารสำคัญเกี่ยวกับข้าศึก/OE</td></tr><tr><th>FFIR</th><td>ข่าวสารสำคัญเกี่ยวกับฝ่ายเรา</td></tr><tr><th>EEFI</th><td>ข้อมูลฝ่ายเราที่ต้องป้องกันไม่ให้ข้าศึกรู้</td></tr><tr><th>TIR</th><td>ความต้องการข่าวกรองระดับยุทธบริเวณ</td></tr></table>
+
+
+<div class="formula">OODA = Observe → Orient → Decide → Act</div>
+<p><b>ในมุม IPOE:</b> IPOE ช่วยให้ Observe และ Orient ดีขึ้น โดยให้ข้อมูล OE, Threat, Indicator และ Threat COA เพื่อสนับสนุนการตกลงใจ</p>
+<p><b>ดูรายละเอียด OODA ในส่วน Plan Development / Orders & Execution</b></p>
+
+
+</div></section>
+
+<section id="pms" class="card"><div class="title"><h2>4. ปมส. — การประมาณสถานการณ์</h2><p>รู้เรา / ตัดสินใจ / สร้าง COA / ออกแผนคำสั่ง</p></div><div class="content">
+<h3>ความหมายและ 7 Steps</h3>
+<p><b>ปมส.</b> คือกระบวนการวิเคราะห์สถานการณ์ เพื่อพัฒนา วิเคราะห์ เปรียบเทียบ COA และเสนอผู้บังคับบัญชาตกลงใจ</p>
+<p><b>IPOE</b> ตอบว่า เขา/OE เป็นอย่างไร | <b>ปมส.</b> ตอบว่า เราจะทำอย่างไร</p>
+<table><tr><th>1</th><td>Preliminary Scoping</td></tr><tr><th>2</th><td>Mission Analysis</td></tr><tr><th>3</th><td>COA Development</td></tr><tr><th>4</th><td>COA Analysis / War Game</td></tr><tr><th>5</th><td>COA Comparison & Decision</td></tr><tr><th>6</th><td>Plan Development</td></tr><tr><th>7</th><td>Orders & Execution</td></tr></table>
+
+<h3>Preliminary Scoping</h3>
+<ul><li>Commander Initial Guidance</li><li>Planning Guidelines / Limitations</li><li>Risk Management</li><li>Initial CCIR: PIR + FFIR</li><li>Intel Update / Review IPOE</li><li>AO / AOI</li><li>Planning Timeline</li><li>Initial Required Forces</li></ul>
+
+<h3>Mission Analysis</h3>
+<ol><li>Review Situation</li><li>Examine Facts</li><li>Evaluate Initial Risks</li><li>Determine Own Mission</li><li>Determine Commander Intent</li><li>Determine CCIR</li><li>Guidance / WARNO</li></ol>
+<p><b>หัวใจ:</b> วิเคราะห์ภารกิจผิด = แผนผิด</p>
+<table><tr><th>Specified Task</th><td>งานที่ระบุชัดจากหน่วยเหนือ</td></tr><tr><th>Implied Task</th><td>งานที่ไม่ได้ระบุแต่ต้องทำ</td></tr><tr><th>Essential Task</th><td>งานที่จำเป็นต่อภารกิจ อยู่ใน Mission Statement</td></tr><tr><th>Mission Statement</th><td>Who + What + Where + When + Why</td></tr></table>
+
+<h3>Commander Intent / CCIR / ROE / Constraint</h3>
+<table><tr><th>Commander Intent</th><td>Purpose + Method + End State</td></tr><tr><th>CCIR</th><td>ข้อมูลสำคัญต่อผู้บังคับบัญชาในการตัดสินใจ</td></tr><tr><th>PIR</th><td>ข่าวสารสำคัญเกี่ยวกับข้าศึก/OE</td></tr><tr><th>FFIR</th><td>ข่าวสารสำคัญเกี่ยวกับฝ่ายเรา</td></tr><tr><th>ROE</th><td>Rules of Engagement กฎการใช้กำลัง</td></tr><tr><th>Constraint</th><td>ข้อบังคับที่ต้องทำ</td></tr><tr><th>Restraint</th><td>ข้อห้ามที่ห้ามทำ</td></tr></table>
+
+<h3>COA Development / COA Analysis / Comparison</h3>
+<ul><li>ยืนยัน COG / CF</li><li>กำหนด DP / Desired Conditions</li><li>จัด LOO / LOE</li><li>Phase / Main Effort</li><li>จัดกำลัง / Concept</li></ul>
+<p><b>COA Test:</b> Suitable, Feasible, Acceptable, Distinguishable, Complete</p>
+<div class="formula">COA Analysis / War Game = Action → Reaction → Counteraction</div>
+<p>ใช้ MLCOA / MDCOA, NAI, Event Matrix เพื่อหา Risk, DP, Branch, ปรับ COA / CCIR</p>
+<p><b>COA Comparison</b> ใช้ Governing Factors เช่น Mission, Risk, Time, Logistics, C2, Flexibility</p>
+
+<h3>Plan Development / Orders & Execution / OODA</h3>
+<table>
+<tr><th>Plan Development</th><td>เปลี่ยน COA ที่ผู้บังคับบัญชาเลือกแล้วให้เป็นแผนละเอียด พร้อม CONOPS, Task Organization, Support Concept, Sync Matrix และ Annex/Appendix</td></tr>
+<tr><th>CONOPS</th><td>Concept of Operations แนวความคิดในการปฏิบัติของแผนที่เลือก</td></tr>
+<tr><th>Task Org</th><td>การจัดกำลังเฉพาะกิจให้สอดคล้องกับ COA และ Main Effort</td></tr>
+<tr><th>Support Concept</th><td>แนวคิดการสนับสนุน เช่น Logistics, Medical, Communication, Sustainment</td></tr>
+<tr><th>Sync Matrix</th><td>ตารางประสานเวลา หน่วย กิจ และ Phase เพื่อให้ทุกส่วนปฏิบัติสอดคล้องกัน</td></tr>
+<tr><th>OPORD</th><td>Operation Order คำสั่งยุทธการสำหรับปฏิบัติจริง</td></tr>
+<tr><th>FRAGO</th><td>Fragmentary Order คำสั่งเพิ่มเติม/คำสั่งย่อยเพื่อปรับแผนระหว่างปฏิบัติ</td></tr>
+</table>
+
+<h3>OODA Loop ในการปรับแผนและการปฏิบัติ</h3>
+<div class="formula">OODA = Observe → Orient → Decide → Act</div>
+<table>
+  <tr><th>Observe</th><td>ตรวจพบและรวบรวมข้อมูลจาก ISR, Sensor, Report, หน่วยปฏิบัติ และสถานการณ์จริง</td></tr>
+  <tr><th>Orient</th><td>ตีความข้อมูล ทำความเข้าใจ OE, Threat, Indicator, ความเสี่ยง และความหมายต่อภารกิจ</td></tr>
+  <tr><th>Decide</th><td>ผู้บังคับบัญชาตัดสินใจเลือก/ปรับ COA, ออกคำสั่งเพิ่มเติม, เปลี่ยน Main Effort หรือปรับ Priority</td></tr>
+  <tr><th>Act</th><td>ปฏิบัติตามแผนหรือคำสั่ง เช่น ออก OPORD/FRAGO, เคลื่อนกำลัง, โจมตี, จัด ISR เพิ่ม หรือปรับ Phase</td></tr>
+</table>
+<div class="box note">
+  <p><b>ความสัมพันธ์กับ Plan Development:</b> แผนที่ดีต้องรองรับการวน OODA ระหว่างปฏิบัติ เพราะสถานการณ์เปลี่ยนตลอดเวลา</p>
+  <p><b>ความสัมพันธ์กับ IPOE:</b> IPOE ช่วยให้ Observe/Orient แม่นขึ้น ส่วน ปมส. และ Plan Development ช่วยให้ Decide/Act เป็นระบบ</p>
+  <p><b>หลักจำ:</b> ฝ่ายที่ OODA เร็วกว่าและเข้าใจสถานการณ์ดีกว่า จะชิงจังหวะการตัดสินใจและรักษา Tempo ได้ดีกว่า</p>
+</div>
+</div></section>
+
+<section id="linkage" class="card"><div class="title"><h2>ความเชื่อมโยง 4 วิชา</h2></div><div class="content">
+<div class="formula">OPART คิด → OPDESIGN วาด → IPOE รู้เขา/OE → ปมส. รู้เรา+ตกลงใจ → OPORD</div>
+<table><tr><th>วิชา</th><th>บทบาท</th><th>คำหลัก</th></tr><tr><td>OPART</td><td>คิดเชิงยุทธศิลป์ เชื่อมยุทธศาสตร์กับยุทธวิธี</td><td>Ends/Ways/Means/Risk, COG, DP, LOO/LOE, Reach, Tempo</td></tr><tr><td>OPDESIGN</td><td>วาดความเข้าใจ OE / Problem / Approach</td><td>Direction, OE, Problem, Approach</td></tr><tr><td>IPOE</td><td>รู้เขาและ OE</td><td>AO/AOI, MCOO, Threat, MLCOA/MDCOA, NAI, Event Matrix</td></tr><tr><td>ปมส.</td><td>รู้เราและตกลงใจ</td><td>Mission Analysis, COA, War Game, Decision, OPORD</td></tr></table>
+<h3>IPOE ↔ ปมส.</h3>
+<table><tr><th>ปมส.</th><th>IPOE สนับสนุน</th></tr><tr><td>Scoping</td><td>AO/AOI, Initial Threat</td></tr><tr><td>Mission Analysis</td><td>OE Effects, MCOO, CCIR/PIR</td></tr><tr><td>COA Development</td><td>Threat COG, DP, HVT/HPT</td></tr><tr><td>COA Analysis</td><td>MLCOA/MDCOA, NAI, Event Matrix</td></tr><tr><td>Decision</td><td>Risk, Threat Reaction, Indicators</td></tr></table>
+<div class="box note"><p><b>ประโยคทอง:</b> IPOE เป็น input ข่าวกรองของ ปมส. ทุกขั้น ลดการเดา สนับสนุนการวิเคราะห์ภารกิจ พัฒนา COA, War Game และการตกลงใจ</p></div>
+</div></section>
+
+<section id="quick" class="card"><div class="title"><h2>ชุดจำเร็ว ปรนัย / ถูก–ผิด</h2></div><div class="content">
+<div class="flash">
+<div>OPART Core</div><div>Ends + Ways + Means + Risk</div>
+<div>Operational Factors</div><div>Time + Space + Force</div><div>Campaign</div><div>ชุดการปฏิบัติ/ยุทธการหลายส่วนที่สัมพันธ์กัน เพื่อบรรลุ Objective / End State</div>
+<div>PMESII-PT</div><div>ใช้วิเคราะห์ OE ไม่ใช่ OPART Element โดยตรง</div>
+<div>COG Analysis</div><div>COG → CC → CR → CV</div>
+<div>Effect</div><div>ผลที่ต้องเกิด ไม่ใช่ Task</div>
+<div>DP</div><div>Condition / Event / Area / Function ไม่ใช่ Task</div>
+<div>Design Methodology</div><div>Direction → OE → Problem → Approach</div>
+<div>Operational Approach</div><div>แนวทางกว้าง ไม่ใช่ COA รายละเอียด</div>
+<div>Concept vs Detailed</div><div>Concept = แนวคิดกว้าง / Detailed = รายละเอียดปฏิบัติ</div>
+<div>IPOE 4 Steps</div><div>Define OE → Describe OE Effects → Evaluate Threat → Determine Threat COA</div>
+<div>MCOO</div><div>Step 2 และเป็นผลกระทบ OE ต่อ Ops</div>
+<div>MLCOA / MDCOA</div><div>น่าจะทำมากที่สุด / อันตรายที่สุด</div>
+<div>NAI / TAI</div><div>พื้นที่เฝ้าตรวจ / พื้นที่ใช้ผลหรือโจมตี</div>
+<div>HVT / HPT</div><div>HVT ≈ CR สิ่งสำคัญต่อข้าศึก / HPT ≈ CV เป้าหมายตีแล้วคุ้มต่อฝ่ายเรา</div>
+<div>EEFI</div><div>ข้อมูลฝ่ายเราที่ต้องป้องกันไม่ให้ข้าศึกรู้</div>
+<div>OODA</div><div>Observe → Orient → Decide → Act</div>
+<div>ปมส. 7 Steps</div><div>Preliminary → MA → COA Dev → COA Analysis → COA Comparison/Decision → Plan → Orders</div>
+<div>COA Analysis</div><div>War Game = Action → Reaction → Counteraction</div>
+</div></div></section>
+
+<section id="essay" class="card"><div class="title"><h2>โครงตอบอัตนัย</h2></div><div class="content">
+<details open><summary>IPOE 4 ขั้น</summary><div class="inner"><p>IPOE คือกระบวนการข่าวกรองสนับสนุนการวางแผน มี 4 ขั้น ได้แก่ 1 Define OE กำหนด AO/AOI/OE 2 Describe OE Effects วิเคราะห์ผลกระทบและทำ MCOO 3 Evaluate Threat วิเคราะห์ Capability/Intent/COG/HVT/HPT และ 4 Determine Threat COA จัด MLCOA/MDCOA/NAI/Event Matrix/Collection Plan</p></div></details>
+<details open><summary>ความสัมพันธ์ IPOE Step 1 กับ Step 2</summary><div class="inner"><p>Step 1 ตอบว่า “ดูอะไร/ที่ไหน” โดยกำหนด OE, AO, AOI และลักษณะสำคัญของสภาพแวดล้อม ส่วน Step 2 ตอบว่า “แล้วมีผลอย่างไรต่อ Ops” โดยนำ OE/AO/AOI มาวิเคราะห์ Physical, Non-physical และ Time จนได้ MCOO และ Critical Effects เพื่อนำไปใช้ใน Mission Analysis และ COA</p></div></details>
+<details open><summary>ความเชื่อมโยง IPOE กับ ปมส.</summary><div class="inner"><p>IPOE ให้ข้อมูล OE, Threat และ Threat COA แก่ ปมส. ตั้งแต่ Scoping, Mission Analysis, COA Development, War Game และ Decision โดยเฉพาะ MCOO, Threat COG, HVT/HPT, MLCOA/MDCOA, NAI และ Event Matrix ทำให้การวิเคราะห์ภารกิจและการพัฒนา COA ไม่ใช่การเดา</p></div></details>
+<details open><summary>ความสำคัญของ ปมส.</summary><div class="inner"><p>ปมส. เป็นกระบวนการวิเคราะห์สถานการณ์อย่างเป็นระบบ เพื่อพัฒนา วิเคราะห์ และเปรียบเทียบ COA ลดความคลุมเครือ ลดความเสี่ยง สนับสนุนให้ผู้บังคับบัญชาตกลงใจ และนำไปสู่การออก OPORD ได้อย่างมีเหตุผล</p></div></details>
+</div></section>
+
+<section id="traps" class="card"><div class="title"><h2>ข้อหลอกจำเร็ว</h2></div><div class="content">
+<table><tr><th class="bad">ข้อความหลอก</th><th class="good">แก้ให้ถูก</th></tr>
+<tr><td>OP Factors = Time + Space</td><td>ผิด เพราะขาด Force</td></tr><tr><td>Campaign = Battle ครั้งเดียว</td><td>ผิด Campaign คือชุดการปฏิบัติ/ยุทธการหลายส่วนที่สัมพันธ์กันเพื่อบรรลุ End State</td></tr>
+<tr><td>PMESII-PT เป็น OPART Element โดยตรง</td><td>ผิด ใช้วิเคราะห์ OE</td></tr>
+<tr><td>DP = Task</td><td>ผิด DP คือ Condition / Event / Area / Function</td></tr>
+<tr><td>Effect = Task</td><td>ผิด Effect คือ Result</td></tr>
+<tr><td>Design ขั้นแรก = OE</td><td>ผิด ขั้นแรกคือ Direction</td></tr>
+<tr><td>Operational Approach = COA</td><td>ผิด เป็นแนวทางกว้าง</td></tr>
+<tr><td>MCOO = Step 4</td><td>ผิด MCOO อยู่ Step 2</td></tr>
+<tr><td>MLCOA = อันตรายที่สุด</td><td>ผิด MLCOA = น่าจะทำมากที่สุด</td></tr>
+<tr><td>COA Analysis = Step 5</td><td>ผิด COA Analysis / War Game = Step 4</td></tr>
+<tr><td>HVT = HPT</td><td>ผิด ตามกรอบสอบ: HVT ≈ CR, HPT ≈ CV</td></tr>
+<tr><td>NAI = พื้นที่โจมตี</td><td>ผิด NAI = พื้นที่เฝ้าตรวจ, TAI = พื้นที่ใช้ผลหรือโจมตี</td></tr>
+<tr><td>EEFI = ข่าวกรองข้าศึก</td><td>ผิด EEFI = ข้อมูลฝ่ายเราที่ต้องป้องกันไม่ให้ข้าศึกรู้</td></tr>
+</table></div></section>
+
+</main></div>
+<div class="printbar">เปิดด้วย Chrome → Ctrl+P → Save as PDF | คู่มือสอบ V5 ปรับ Campaign สั้น + OODA ใน Plan Development</div>
+<script>
+const searchBox=document.getElementById('searchBox');
+const cards=Array.from(document.querySelectorAll('.card'));
+searchBox.addEventListener('input',function(){
+  const q=this.value.trim().toLowerCase();
+  cards.forEach(function(card){
+    if(!q){card.style.display='block';return}
+    const text=card.innerText.toLowerCase();
+    card.style.display=text.includes(q)?'block':'none';
+  });
+});
+</script>
+</body></html>

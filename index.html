@@ -74,7 +74,7 @@
 
     .actions {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
     }
 
@@ -154,6 +154,10 @@
       color: #111827;
     }
 
+    .tile.v5 .open {
+      background: #6d28d9;
+    }
+
     .note {
       padding: 14px 16px;
       border: 1px solid rgba(253, 230, 138, .8);
@@ -188,7 +192,7 @@
     <section class="hero" aria-labelledby="page-title">
       <div class="kicker">หลักสูตรเสนาธิการทหารเรือ รุ่นที่ 86</div>
       <h1 id="page-title">คู่มือสอบ เสธ.86</h1>
-      <p>เลือกเข้าอ่านคู่มือฉบับเต็ม ฝึกทำ Mock Exam 100 ข้อ หรือเปิดแผ่นสรุป A4 สำหรับ OPART, OPDESIGN, IPOE และ ปกส.</p>
+      <p>เลือกเข้าอ่านคู่มือฉบับเต็ม คู่มือ V5 ฝึกทำ Mock Exam 100 ข้อ หรือเปิดแผ่นสรุป A4 สำหรับ OPART, OPDESIGN, IPOE และ ปกส.</p>
     </section>
 
     <section class="actions" aria-label="เมนูเอกสาร">
@@ -230,6 +234,20 @@
           </span>
         </span>
         <span class="open">เปิด PDF</span>
+      </a>
+
+      <a class="tile v5" href="exam_manual_V5_campaign_short_OODA_plan_development_OPART_OPDESIGN_IPOE_PMS.html">
+        <span>
+          <strong>คู่มือสอบ V5 Campaign/OODA</strong>
+          <p>ฉบับปรับ Campaign ให้สั้นขึ้น และย้าย OODA ไปอยู่ในส่วน Plan Development พร้อม OPART, OPDESIGN, IPOE และ ปกส.</p>
+          <span class="meta">
+            <span class="tag">V5</span>
+            <span class="tag">Campaign</span>
+            <span class="tag">OODA</span>
+            <span class="tag">Plan Development</span>
+          </span>
+        </span>
+        <span class="open">เปิดคู่มือ V5</span>
       </a>
     </section>
 
